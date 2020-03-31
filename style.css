@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+div#wb-widget {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+    z-index: 999;
+}
+
+div#wb-widget div#wb-btn {
+    background-color: #4dc247;
+    height: 31px;
+    width: 30px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+div#wb-widget div#wb-btn a img#wb-icon {
+    width: 65%;
+    margin: 5px;
+    vertical-align: baseline;
+}
+div#wb-widget div#wb-message {
+    font-family: 'Ubuntu', sans-serif;
+    background: #fff;
+    border: 1px solid #4dc247;
+    height: 25px;
+    float: left;
+    position: relative;
+    padding: 2px 10px;
+    margin-bottom: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    line-height: 25px;
+}
